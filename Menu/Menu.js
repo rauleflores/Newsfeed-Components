@@ -54,5 +54,8 @@ function menuComponentCreator(arr) {
 
   return menuDiv;
 }
+
+const head = document.querySelector('.header')
 const menuComponent = menuComponentCreator(menuItems);
-console.log(menuComponent)
+
+head.appendChild(menuComponent)
