@@ -34,11 +34,16 @@ function menuComponentCreator(arr) {
   menuDiv.classList.add('menu')
 
   const ulElem = document.createElement('ul')
-  
+
   menuItems.forEach( item => {
     const li = document.createElement('li')
     const txt = document.createTextNode(item)
     li.appendChild(txt)
     ulElem.appendChild(li)
+  })
+
+  const menuButton = document.querySelector('.menu-button')
+  menuButton.addEventListener('click', () => {
+    menuDiv.classList.toggle('menu--open')
   })
 }
