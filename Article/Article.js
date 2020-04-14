@@ -130,7 +130,9 @@ function componentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
   const articleExpandButton = document.createElement('span')
   articleExpandButton.classList.add('expandButton')
   articleExpandButton.textContent = 'Expand Article'
-  
+  articleExpandButton.addEventListener('click', () => {
+    articleDiv.classList.toggle('article-open')
+  })
 
 
   articleDiv.appendChild(articleTitle)
@@ -142,6 +144,7 @@ function componentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
   
   console.log(articleDiv)
   return articleDiv;
+  // document.querySelector('.articles').appendChild(articleDiv);
 
 }
 componentCreator('titleVal', 'dateVal', 'firstPVal', 'secondPVal', 'thirdPVal');
