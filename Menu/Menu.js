@@ -1,5 +1,3 @@
-// import gsap from 'gsap';
-
 /* This is the data we will be using, study it but don't change anything, yet. */
 
 let menuItems = [
@@ -45,8 +43,14 @@ function menuComponentCreator(arr) {
   })
 
   const menuButton = document.querySelector('.menu-button')
-  menuButton.addEventListener('click', () => {
-    menuDiv.classList.toggle('menu--open')
+  menuButton.addEventListener('click', (ev) => {
+    document.onclick = function(){
+      if(ev.target.className !== 'menu--open'){
+        menuDiv.classList.toggle('menu--open')
+      } else {
+        menuDiv.classList.toggle('menu--open')
+      }
+    }
   })
 
   menuDiv.appendChild(ulElem)
