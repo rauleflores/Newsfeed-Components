@@ -269,8 +269,9 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
   const articleExpandButton = document.createElement('span')
   articleExpandButton.classList.add('expandButton')
   articleExpandButton.textContent = 'Expand Article'
-  articleExpandButton.addEventListener('click', () => {
+  articleExpandButton.addEventListener('click', (ev) => {
     articleDiv.classList.toggle('article-open')
+    ev.stopPropagation();
   })
 
   const articleReadButton = document.createElement('span')
@@ -296,8 +297,9 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
       ev.target.style.right = '10px'
       ev.target.textContent = 'Read';
       }     )
-  articleReadButton.addEventListener('click', () =>{
+  articleReadButton.addEventListener('click', (ev) =>{
       articleDiv.style.display = 'none';
+      ev.stopPropagation();
   })
 
   articleDiv.appendChild(articleTitle)

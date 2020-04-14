@@ -43,12 +43,11 @@ function menuComponentCreator(arr) {
   })
 
   const menuButton = document.querySelector('.menu-button')
-  menuButton.addEventListener('click', (ev) => {
-    document.onclick = function(){
-      if(ev.target.className !== 'menu--open'){
-        menuDiv.classList.toggle('menu--open')
-      } else {
-        menuDiv.classList.toggle('menu--open')
+  menuButton.addEventListener('click', () => {
+    menuDiv.classList.toggle('menu--open')
+    document.onclick = function(e){
+      if(e.target.className !== 'menu-button'){
+        menuDiv.classList.remove('menu--open')
       }
     }
   })
