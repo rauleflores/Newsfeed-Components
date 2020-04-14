@@ -73,6 +73,16 @@
   transform: translate(-50%);
   background-color: white;
 }
+.article .readButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 12px;
+  color: grey;
+  cursor: pointer;
+  transform: translate(-50%);
+  background-color: white;
+}
 .article-open {
   height: 500px;
 }
@@ -92,7 +102,9 @@
   background-color: #81C784;
   border: 1px solid #004D40;
   border-left: none;
+  border-top: none;
   border-bottom: none;
+  box-shadow: 8px 1px 4px rgba(0, 0, 0, 0.8);
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
