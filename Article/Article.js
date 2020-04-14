@@ -284,13 +284,16 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
         ev.target.style.border = '1px solid red';
         ev.target.style.padding = '2px';
         ev.target.style.color = 'red';
-        ev.target.textContent = 'Close'
+        ev.target.style.cursor = 'pointer';
+        ev.target.style.right = '8px'
+        ev.target.textContent = 'Close';        
       })
   articleReadButton.addEventListener('mouseleave', (ev) => {
       ev.target.style.backgroundColor = ''
       ev.target.style.border = '1.5px solid forestgreen';
       ev.target.style.padding = '1.5px';
       ev.target.style.color = 'initial';
+      ev.target.style.right = '10px'
       ev.target.textContent = 'Read';
       }     )
   articleReadButton.addEventListener('click', () =>{
