@@ -100,15 +100,48 @@ const data = [
   </div>
 
   Hint: You will need to use createElement more than once here!
-
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
-
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
-
   Step 3: return the entire component.
-
   Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
-
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
-
 */
+
+function componentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
+  const articleDiv = document.createElement('div')
+  articleDiv.classList.add('article')
+
+  const articleTitle = document.createElement('h2')
+  articleTitle.textContent = titleVal;
+
+  const articleDate = document.createElement('p')
+  articleDate.classList.add('date')
+  articleDate.textContent = dateVal;
+
+  const articleFirstP = document.createElement('p')
+  articleFirstP.textContent = firstPVal;
+
+  const articleSecondP = document.createElement('p')
+  articleSecondP.textContent = secondPVal;
+
+  const articleThirdP = document.createElement('p')
+  articleThirdP.textContent = thirdPVal;
+
+  const articleExpandButton = document.createElement('span')
+  articleExpandButton.classList.add('expandButton')
+  articleExpandButton.textContent = 'Expand Article'
+  
+
+
+  articleDiv.appendChild(articleTitle)
+  articleDiv.appendChild(articleDate)
+  articleDiv.appendChild(articleFirstP)
+  articleDiv.appendChild(articleSecondP)
+  articleDiv.appendChild(articleThirdP)
+  articleDiv.appendChild(articleExpandButton)
+  
+  console.log(articleDiv)
+  return articleDiv;
+
+}
+componentCreator('titleVal', 'dateVal', 'firstPVal', 'secondPVal', 'thirdPVal');
