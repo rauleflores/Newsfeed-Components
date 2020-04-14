@@ -107,7 +107,7 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 */
 
-function componentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
+function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
   const articleDiv = document.createElement('div')
   articleDiv.classList.add('article')
 
@@ -147,4 +147,9 @@ function componentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
   // document.querySelector('.articles').appendChild(articleDiv);
 
 }
-componentCreator('titleVal', 'dateVal', 'firstPVal', 'secondPVal', 'thirdPVal');
+//articleComponentCreator('titleVal', 'dateVal', 'firstPVal', 'secondPVal', 'thirdPVal');
+const articles = document.querySelector('.articles')
+data.map((obj) => {
+  const articleComponent = articleComponentCreator(obj.title, obj.date, obj.firstParagraph, obj.secondParagraph, obj.thirdParagraph)
+  articles.appendChild(articleComponent);
+})
