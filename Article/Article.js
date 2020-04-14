@@ -273,6 +273,29 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
     articleDiv.classList.toggle('article-open')
   })
 
+  const articleReadButton = document.createElement('span')
+  articleReadButton.classList.add('close')
+  articleReadButton.textContent = 'Read'
+  articleReadButton.style.border = '1.5px solid forestgreen'
+  articleReadButton.style.borderRadius = '5px'
+  articleReadButton.style.padding = '1.5px'
+  articleReadButton.addEventListener('mouseenter', (ev) => {
+        ev.target.style.backgroundColor = 'yellow'
+        ev.target.style.border = '1px solid red';
+        ev.target.style.padding = '2px';
+        ev.target.style.color = 'red';
+        ev.target.textContent = 'Close'
+      })
+  articleReadButton.addEventListener('mouseleave', (ev) => {
+      ev.target.style.backgroundColor = ''
+      ev.target.style.border = '1.5px solid forestgreen';
+      ev.target.style.padding = '1.5px';
+      ev.target.style.color = 'initial';
+      ev.target.textContent = 'Read';
+      }     )
+  articleReadButton.addEventListener('click', () =>{
+      articleDiv.style.display = 'none';
+  })
 
   articleDiv.appendChild(articleTitle)
   articleDiv.appendChild(articleDate)
@@ -280,6 +303,7 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
   articleDiv.appendChild(articleSecondP)
   articleDiv.appendChild(articleThirdP)
   articleDiv.appendChild(articleExpandButton)
+  articleDiv.appendChild(articleReadButton)
   
   console.log(articleDiv)
   return articleDiv;
