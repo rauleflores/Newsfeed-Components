@@ -44,6 +44,15 @@ function menuComponentCreator(arr) {
 
   const menuButton = document.querySelector('.menu-button')
   menuButton.addEventListener('click', () => {
+    console.log(menuDiv.classList)
     menuDiv.classList.toggle('menu--open')
+    console.log(menuDiv.classList)
+    console.log('Clicked!')
   })
+
+  menuDiv.appendChild(ulElem)
+
+  return menuDiv;
 }
+const menuComponent = menuComponentCreator(menuItems);
+console.log(menuComponent)
