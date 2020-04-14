@@ -268,10 +268,15 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
 
   const articleExpandButton = document.createElement('span')
   articleExpandButton.classList.add('expandButton')
-  articleExpandButton.textContent = 'Expand Article'
+  articleExpandButton.textContent = 'Click to Expand'
   articleExpandButton.addEventListener('click', (ev) => {
-    articleDiv.classList.toggle('article-open')
-    ev.stopPropagation();
+  articleDiv.classList.toggle('article-open')
+  if(articleDiv.className === 'article article-open'){
+      articleExpandButton.textContent = 'Click to Close'
+      } else {
+      articleExpandButton.textContent = 'Click to Expand'
+      }
+      ev.stopPropagation();
   })
 
   const articleReadButton = document.createElement('span')
@@ -298,7 +303,16 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
       ev.target.textContent = 'Read';
       }     )
   articleReadButton.addEventListener('click', (ev) =>{
-      articleDiv.style.display = 'none';
+      // articleDiv.style.display = 'none';
+      // articleDiv.style.opacity = '0'
+      // articleDiv.style.transition = 'all 2s'      
+      if(articleDiv.className !== 'article articleRead'){
+            articleDiv.classList.add('articleRead')
+            setTimeout(function() {
+                  articleDiv.style.display = 'none';
+                  articleDiv.style.transition = 'all ease'
+            }, 1700)
+      }
       ev.stopPropagation();
   })
 
