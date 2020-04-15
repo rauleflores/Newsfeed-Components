@@ -328,8 +328,8 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
 
 }
 
-const articles = document.querySelector('.articles')
 data.map((obj) => {
+  const articles = document.querySelector('.articles')
   const articleComponent = articleComponentCreator(obj.title, obj.date, obj.firstParagraph, obj.secondParagraph, obj.thirdParagraph)
   articles.appendChild(articleComponent);
 })
