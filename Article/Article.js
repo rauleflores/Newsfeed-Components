@@ -85,7 +85,146 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: '10 CSS Tips and Tricks',
+    date: 'Feb 17th, 2019',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit 
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
+  },
+  {
+    title: 'LESS is more!',
+    date: 'Mar 5th, 2019',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Duis aute irure dolor in reprehenderit in voluptate
+           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+           mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
+  },
+  {
+    title: 'ATOM/VSCODE/WEBSTORM - We love IDE\s!',
+    date: 'Apr 21st, 2019',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit 
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
+  },
+  {
+    title: 'Yarn vs NPM',
+    date: 'Apr 30th, 2020',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+  },
+  {
+    title: 'Lambda School Students: "We\'re still the best!"',
+    date: 'May 18th, 2019',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit 
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
+  },
+  {
+    title: 'Designing Webpages',
+    date: 'Jun 10th, 2019',
+    firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
+          brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    secondParagraph: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, 
+          to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s
+          actually our duty to future generations and their quest to ensure the survival of the human species. Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit 
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+
+    thirdParagraph: `Satoshi Nakamoto launched lots of decentralisation when Litecoin required many decentralised application, for Augur limited some public
+          key behind lots of multi signature. Blockchain thought some robust smart contract in a algorithm! Since OmiseGo bought few double spend, Augur could
+          be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
   }
+  
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
@@ -100,15 +239,97 @@ const data = [
   </div>
 
   Hint: You will need to use createElement more than once here!
-
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
-
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
-
   Step 3: return the entire component.
-
   Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
-
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
-
 */
+
+function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, thirdPVal){
+  const articleDiv = document.createElement('div')
+  articleDiv.classList.add('article')
+
+  const articleTitle = document.createElement('h2')
+  articleTitle.textContent = titleVal;
+
+  const articleDate = document.createElement('p')
+  articleDate.classList.add('date')
+  articleDate.textContent = dateVal;
+
+  const articleFirstP = document.createElement('p')
+  articleFirstP.textContent = firstPVal;
+
+  const articleSecondP = document.createElement('p')
+  articleSecondP.textContent = secondPVal;
+
+  const articleThirdP = document.createElement('p')
+  articleThirdP.textContent = thirdPVal;
+
+  const articleExpandButton = document.createElement('span')
+  articleExpandButton.classList.add('expandButton')
+  articleExpandButton.textContent = 'Click to Expand'
+  articleExpandButton.addEventListener('click', (ev) => {
+      articleDiv.classList.toggle('article-open')
+      if(articleDiv.className === 'article article-open'){
+            articleExpandButton.textContent = 'Click to Close'
+            } else {
+            articleExpandButton.textContent = 'Click to Expand'
+            }
+            ev.stopPropagation();
+  })
+
+  const articleReadButton = document.createElement('span')
+  articleReadButton.classList.add('close')
+  articleReadButton.textContent = 'Read'
+  articleReadButton.style.border = '1.5px solid forestgreen'
+  articleReadButton.style.borderRadius = '5px'
+  articleReadButton.style.padding = '1.5px'
+  articleReadButton.addEventListener('mouseenter', (ev) => {
+        ev.target.style.backgroundColor = 'yellow'
+        ev.target.style.border = '1px solid red';
+        ev.target.style.padding = '2px';
+        ev.target.style.color = 'red';
+        ev.target.style.cursor = 'pointer';
+        ev.target.style.right = '8px'
+        ev.target.textContent = 'Close';        
+      })
+  articleReadButton.addEventListener('mouseleave', (ev) => {
+      ev.target.style.backgroundColor = ''
+      ev.target.style.border = '1.5px solid forestgreen';
+      ev.target.style.padding = '1.5px';
+      ev.target.style.color = 'initial';
+      ev.target.style.right = '10px'
+      ev.target.textContent = 'Read';
+      }     )
+  articleReadButton.addEventListener('click', (ev) =>{
+      // articleDiv.style.display = 'none';
+      // articleDiv.style.opacity = '0'
+      // articleDiv.style.transition = 'all 2s'      
+      if(ev.target.className !== 'articles article articleRead'){
+            articleDiv.classList.add('articleRead')
+            setTimeout(function() {
+                  articleDiv.style.display = 'none';
+                  articleDiv.style.transition = 'all ease 1s'
+            }, 1800)
+      }
+      ev.stopPropagation();
+  })
+
+  articleDiv.appendChild(articleTitle)
+  articleDiv.appendChild(articleDate)
+  articleDiv.appendChild(articleFirstP)
+  articleDiv.appendChild(articleSecondP)
+  articleDiv.appendChild(articleThirdP)
+  articleDiv.appendChild(articleExpandButton)
+  articleDiv.appendChild(articleReadButton)
+  
+  return articleDiv;
+
+}
+
+data.map((obj) => {
+  const articles = document.querySelector('.articles')
+  const articleComponent = articleComponentCreator(obj.title, obj.date, obj.firstParagraph, obj.secondParagraph, obj.thirdParagraph)
+  articles.appendChild(articleComponent);
+})
