@@ -129,7 +129,7 @@ const data = [
           be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
   },
   {
-    title: 'ATOM/VSCODE/WEBSTORM - IDE\s',
+    title: 'ATOM/VSCODE/WEBSTORM - We love IDE\s!',
     date: 'Apr 21st, 2019',
     firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
           brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
@@ -153,7 +153,7 @@ const data = [
           be many algo-traded vaporware, but Decred data mining few trusted hard fork!`
   },
   {
-    title: 'Yarn - Why You Should Care',
+    title: 'Yarn vs NPM',
     date: 'Apr 30th, 2020',
     firstParagraph: `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus
           brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
@@ -270,13 +270,13 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
   articleExpandButton.classList.add('expandButton')
   articleExpandButton.textContent = 'Click to Expand'
   articleExpandButton.addEventListener('click', (ev) => {
-  articleDiv.classList.toggle('article-open')
-  if(articleDiv.className === 'article article-open'){
-      articleExpandButton.textContent = 'Click to Close'
-      } else {
-      articleExpandButton.textContent = 'Click to Expand'
-      }
-      ev.stopPropagation();
+      articleDiv.classList.toggle('article-open')
+      if(articleDiv.className === 'article article-open'){
+            articleExpandButton.textContent = 'Click to Close'
+            } else {
+            articleExpandButton.textContent = 'Click to Expand'
+            }
+            ev.stopPropagation();
   })
 
   const articleReadButton = document.createElement('span')
@@ -306,12 +306,12 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
       // articleDiv.style.display = 'none';
       // articleDiv.style.opacity = '0'
       // articleDiv.style.transition = 'all 2s'      
-      if(articleDiv.className !== 'article articleRead'){
+      if(ev.target.className !== 'articles article articleRead'){
             articleDiv.classList.add('articleRead')
             setTimeout(function() {
                   articleDiv.style.display = 'none';
-                  articleDiv.style.transition = 'all ease'
-            }, 1700)
+                  articleDiv.style.transition = 'all ease 1s'
+            }, 1800)
       }
       ev.stopPropagation();
   })
@@ -324,11 +324,10 @@ function articleComponentCreator(titleVal, dateVal, firstPVal, secondPVal, third
   articleDiv.appendChild(articleExpandButton)
   articleDiv.appendChild(articleReadButton)
   
-  console.log(articleDiv)
   return articleDiv;
-  // document.querySelector('.articles').appendChild(articleDiv);
 
 }
+
 const articles = document.querySelector('.articles')
 data.map((obj) => {
   const articleComponent = articleComponentCreator(obj.title, obj.date, obj.firstParagraph, obj.secondParagraph, obj.thirdParagraph)

@@ -1,5 +1,7 @@
 /* This is the data we will be using, study it but don't change anything, yet. */
 
+//import { mapRange } from "gsap";
+
 let menuItems = [
   'Students',
   'Faculty',
@@ -32,6 +34,7 @@ let menuItems = [
 function menuComponentCreator(arr) {
   const menuDiv = document.createElement('div')
   menuDiv.classList.add('menu')
+  menuDiv.id = 'menuID'
 
   const ulElem = document.createElement('ul')
 
@@ -43,13 +46,8 @@ function menuComponentCreator(arr) {
   })
 
   const menuButton = document.querySelector('.menu-button')
-  menuButton.addEventListener('click', () => {
-    menuDiv.classList.toggle('menu--open')
-    document.onclick = function(e){
-      if(e.target.className !== 'menu-button'){
-        menuDiv.classList.remove('menu--open')
-      }
-    }
+  menuButton.addEventListener('click', function() {
+    menuDiv.classList.toggle('menu--open');
   })
 
   menuDiv.appendChild(ulElem)
